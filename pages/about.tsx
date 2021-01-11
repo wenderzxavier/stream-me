@@ -1,16 +1,16 @@
 import { Box, Button, Container, Typography } from "@material-ui/core";
 import Link from "next/link";
 
-const Index = () => {
+const About = () => {
   return (
     <Container maxWidth="sm">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
           Next.js Example
         </Typography>
-        <Link href="/about">
+        <Link href="/">
           <Button variant="contained" color="primary">
-            Go to the about page
+            Go to the index page
           </Button>
         </Link>
       </Box>
@@ -18,4 +18,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default About;
